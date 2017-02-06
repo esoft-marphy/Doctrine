@@ -1,5 +1,5 @@
 {
-	"name": "kdyby/doctrine",
+	"name": "esoft-marphy/doctrine",
 	"type": "library",
 	"description": "Doctrine integration into Nette Framework",
 	"keywords": ["nette", "kdyby", "doctrine", "orm", "dbal"],
@@ -18,10 +18,10 @@
 	},
 	"require": {
 		"php": ">=5.4",
-		"nette/di": "~2.3@dev",
-		"nette/neon": "~2.3@dev",
-		"nette/utils": "~2.3@dev",
-		"nette/robot-loader": "~2.3@dev",
+		"nette/di": "*",
+		"nette/neon": "*",
+		"nette/utils": "*",
+		"nette/robot-loader": "*",
 
 		"doctrine/orm": "~2.5",
 		"doctrine/dbal": "~2.5",
